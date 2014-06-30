@@ -1,0 +1,1 @@
+﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');$lang['footer.copyrigth'] = "Airsoft Rank. Todos los derechos reservados.";$lang['footer.menu1.aboutus'] = "Filosofía";$lang['footer.menu1.legalnote'] = "Nota Legal";$lang['footer.menu1.terms'] = "Condiciones de uso";

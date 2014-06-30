@@ -1,0 +1,126 @@
+﻿/* html5doctor.com Reset v1.6.1 - http://cssreset.com */	html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/* new clearfix */
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/*@import url(http://fonts.googleapis.com/css?family=Iceland|Aldrich);
+*/
+
+/* Customs ---- */
+body {background-color:#fff;}
+img {margin:0;padding:0}
+body, p, div, span, a, label, input, select{font-family: 'Iceland', cursive; color:#333;font-size:22px;margin:0;padding:0;position:relative;}
+div,table,ul,li {width:100%;}
+a {text-decoration:none;color:#1C66FF}
+a:hover {color:#003399}
+
+a.u {text-decoration:underline}
+h1,h2,h3,h4,h5 {font-family: 'Aldrich', cursive;}
+h1 {font-size:26px; line-height:30px;}
+h2 {font-size:24px; line-height:28px;}
+h3 {font-size:22px; line-height:26px;}
+h4 {font-size:20px; line-height:22px;}
+
+label {font-size:20px;}
+input, select {width:80%;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;padding:2px 10px; margin:3px 0 15px;border-style:none;border:1px solid #333}
+placeholder {font-style:italic;}
+input[type=submit] {color:#fff;width:auto!important;padding:3px 20px;border-style:none;background-color:#003399;margin-top:10px;
+box-shadow:0 0 10px 0 #333;-moz-box-shadow:0 0 10px 0 #333;-webkit-box-shadow:0 0 10px 0 #333;}
+input[type=submit]:hover {background-color:#1C66FF;
+box-shadow:0 0 10px 0 #fff!important;-moz-box-shadow:0 0 10px 0 #fff!important;-webkit-box-shadow:0 0 10px 0 #fff!important;}
+input[type=checkbox] {width:auto!important;}
+
+.fl {float:left;margin-left:10px;}
+.fl :first{margin-left:0;}
+.fr{float:right;margin-right:10px;}
+.fr :first{margin-right:0;}
+
+.w100{width:100%;}
+.w80 {width:80%}
+.w75 {width:75%}
+.w60 {width:60%}
+.w50 {width:45%}
+.w25 {width:23%}
+.w10 {width:10%}
+
+.font2 {font-family: 'Aldrich', cursive;}
+.font3 {font-family: 'Kaushan Script', cursive;}
+
+.social-btn-fb-64 { background: url("img/social.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); height: 72px; width: 64px}
+.social-btn-twitter-64 { background: url("img/social.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); height: 72px; width: 64px; }
+.social-btn-google-64 { background: url("img/social.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); height: 72px; width: 64px; }
+.social-btn-fb-32 { background: url("img/social.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); height: 32px; width: 36px; }
+.social-btn-twitter-32 { background: url("img/social.png") no-repeat scroll -41px 0 rgba(0, 0, 0, 0); height: 32px; width: 36px; }
+.social-btn-google-32 { background: url("img/social.png") no-repeat scroll -81px 0 rgba(0, 0, 0, 0); height: 32px; width: 36px;}
+.social-connect-fb { background: url("img/social.png") no-repeat scroll 0 -109px rgba(0, 0, 0, 0);height: 41px;width: 211px; }
+.social-connect-twitter { background: url("img/social.png") no-repeat scroll 0 -159px rgba(0, 0, 0, 0);height: 41px;width: 211px; }
+.social-connect-google { background: url("img/social.png") no-repeat scroll 0 -254px rgba(0, 0, 0, 0);height: 41px;width: 211px; }
+
+form span.error {color:red;background: url("img/error.png") no-repeat scroll 0px 4px;padding-left:16px;font-size:20px;}
+form span.error a {color:red;text-decoration:underline;font-size:20px;}
+form span.accept {color:green;background: url("img/accept.png") no-repeat scroll 0px 4px;padding-left:16px;font-size:20px;}
+form span.accept a {color:green;text-decoration:underline;font-size:20px;}
+
+
+header .bg {position:absolute;z-index:-1000;}
+	header .bg div {width:100%;}
+	header .bg .bg-header {background: url(img/bg-blue1.png) repeat;height:80px;position:relative}
+	header .bg .banner {box-shadow:0 0 7px 10px #000;-moz-box-shadow:0 0 7px 10px #ccc;-webkit-box-shadow:0 0 7px 10px #ccc;background-color:#000;height:285px;}
+	header .bg .banner .sold {background: url("img/sold-face.png") no-repeat scroll;height:285px;width:280;position:absolute;left:60%;width:432px;}
+	header .bg .bg-map {background: url("img/map.png") no-repeat scroll top center #fff;height:500px; z-index:-1;}
+
+header, 
+ header .bg-header {text-align:center;height:80px;margin:0;padding:0;}
+
+footer {border-top:1px solid #003399;width:95%;margin:20px auto;padding:5px 5px 20px;}
+footer  ul,footer  ul li,footer  div {width:auto;line-height:18px}
+footer  ul li  a,footer  div  {font-size:20px;line-height:20px}
+footer  ul li {float:left;margin-left:25px;}
+footer  ul li:first-child {list-style:none; margin-left:0;}
+footer  .fl {margin-left:0;}
+
+footer div.content, 
+ div#page {margin: 0 auto; width:1024px;}
+
+/* Home ********* */
+.home .slider {text-align:center;padding:40px 0 0;margin:0 auto;}
+	.home .slider h1 {font-size:32px;margin-bottom:20px;}
+	.home .slider h1, div.home .slider h2 {line-height:45px;color:#fff;width:70%}
+	.home .slider .sold {height:auto;width:432px;}
+	
+.home .formulario {width:95%;border:2px solid #fff;padding:10px;margin:30px auto 30px;background-color:#4A4A4A;
+box-shadow:0 0 5px 5px #888;-moz-box-shadow:0 0 5px 5px #888;-webkit-box-shadow:0 0 5px 5px #888;
+border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;
+}
+	.home .formulario strong, 
+		.home .formulario label,
+		.home .formulario h2		{color:#fff;}
+	.home .formulario p, .home .formulario ul li {color:#ccc;}
+	.home .formulario h2 {font-size:28px;margin:0 0 10px 15px;}
+	.home .formulario .block1 {padding:0 15px;width:38%;}
+	.home .formulario ul {margin-left:15px;}
+	.home .formulario ul li {margin:25px 0;list-style:square;}
+	.home .formulario div.line  {width:1px; height:200px;background-color:#fff;float:left}
+	.home .formulario .block2, .home .formulario .block3 {width:25%;padding-left:10px}
+	.home .formulario input[type=submit] {box-shadow:0 0 10px 0 #888;-moz-box-shadow:0 0 10px 0 #888;-webkit-box-shadow:0 0 10px 0 #888;}
+	.home .formulario .block3 ul li{margin:15px 0 0 0; list-style: none;}
+
+.home .puntos {margin:0 auto;padding:40px 0 0 40px;}
+	.home .puntos ul li{width:32%;float:left;list-style:none;margin-left:10px;min-width:200px;}
+	.home .puntos ul li:first-child {margin-left:0;}
+	.home .puntos h2 {font-weight:bold;}
+	.home .puntos h2, .home .puntos p, .home .puntos span {color:#003399;}
+	.home .puntos .circle {border:1px solid #003399;padding:5px 20px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;font-family: 'Kaushan Script', cursive;font-size:30px;margin-right:5px;}
+	.home .puntos p {margin:15px 5px 10px 35px;}
+
+.home .claim  {font-size:30px; background-color:#6295FF;color:#fff;text-align:center;padding:34px 0; margin:35px auto;}
+	.home .claim .left  {position:absolute;background: url(img/bg-arrow1.png) no-repeat scroll -55px 0;height:97px;width:55px;left:0;top:0}
+	.home .claim .right  {position:absolute;background: url(img/bg-arrow1.png) no-repeat scroll 1px 0;height:97px;width:55px;right:0;top:0}
+
+/* Contenido ********* */
+.user-signup-form {width:75%;}
+.user-signup-form {margin-bottom:50px!important;}
+.user-signup-form input, .user-signup-form  select {width:40%;}
+.user-signup-form h1, .user-signup-form p {margin:25px 0;}
